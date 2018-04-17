@@ -1,1 +1,11 @@
-theme: jekyll-theme-tactile
+theme: jekyll-theme-slate
+title: CPGE
+permalink: /articles/:title
+
+defaults:
+  - scope:
+      path: "assets/pdf"
+    values:
+      annal: true
+sass:
+  sass_dir: _sass
